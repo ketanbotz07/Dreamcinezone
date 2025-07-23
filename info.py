@@ -27,9 +27,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 # ============================
 CACHE_TIME = int(environ.get('CACHE_TIME', 180))    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))  # Use caption filter for search results (default: True)
-INDEX_CAPTION = bool(environ.get('<b><a href="https://telegram.me/Requiest_your_faw">{file_caption}</a></b>
+INDEX_CAPTION = bool(environ.get('b><a href="https://telegram.me/Requiest_your_faw">{file_caption}</a></b>
 
-🔴 Join Main Channel 🔴
+🔴 Join Main Channel
 https://t.me/+9Q36NrhnSMs0NzM1
 https://t.me/+8O95rCrGnG9mMGVl
 
