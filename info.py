@@ -33,7 +33,7 @@ INDEX_CAPTION = bool(environ.get('<b><a href="https://telegram.me/Requiest_your_
 https://t.me/+9Q36NrhnSMs0NzM1
 https://t.me/+8O95rCrGnG9mMGVl
 
-❤️...Share & Support...❤️/a></b>', True)) # Save caption db when idexing make it False if you dont use USE_CAPTION_FILTER for search results (default: True)
+Share & Support/a></b>', True)) # Save caption db when idexing make it False if you dont use USE_CAPTION_FILTER for search results (default: True)
 #Making it false will not save caption in db SO you can save some storage space
 
 
@@ -144,13 +144,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5") # Maximum number of buttons in a row (de
 PORT = environ.get("PORT", "8080")  # Port for the web server (default: 8080)
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️') # Alert message for users
 DELETE_TIME = int(environ.get("DELETE_TIME", "150"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"<b><a href="https://telegram.me/Requiest_your_faw">{file_caption}</a></b>
-
-🔴 Join Main Channel 🔴
-https://t.me/+9Q36NrhnSMs0NzM1
-https://t.me/+8O95rCrGnG9mMGVl
-
-❤️...Share & Support...❤️/a></b>")   # Custom caption for files
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"<b><a href="CUSTOM_FILE_CAPTION")   # Custom caption for files
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION) # Custom caption for batch files
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")     # Custom IMDB template 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None) # Maximum number of elements in a list (default: None, no limit)
