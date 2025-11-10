@@ -1496,7 +1496,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id,
             query.message.id,
-            InputMediaPhoto('https://graph.org/file/99eebf5dbe8a134f548e0.jpg')
+            InputMediaPhoto('https://graph.org/file/234ded299eddfc1216aeb-a4e5d84796df7592d7.jpg')
         )
         await query.message.edit_text(
             text=script.DREAMXBOTZ_DONATION.format(query.from_user.mention, QR_CODE, OWNER_UPI_ID),
@@ -1566,9 +1566,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 
-    elif query.data == "source":
+    elif query.data == "[ sᴇᴄᴜʀᴇ 🔐 ]":
         buttons = [[
-            InlineKeyboardButton('ᴅʀᴇᴀᴍxʙᴏᴛᴢ 📜', url='https://github.com/DreamXBotz/Auto_Filter_Bot.git'),
+            InlineKeyboardButton('Aᴅᴍɪɴ Cᴏɴᴛᴀᴄᴛ', url='https://t.me/DragonAdminCantact_bot'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
