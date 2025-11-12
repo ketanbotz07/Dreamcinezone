@@ -189,7 +189,7 @@ async def next_page(bot, query):
                    [
                        InlineKeyboardButton(
                            "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-                       InlineKeyboardButton(
+                      # InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
 
                    ]
