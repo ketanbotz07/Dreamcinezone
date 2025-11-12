@@ -467,7 +467,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
                        InlineKeyboardButton(
                            "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium"),
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles")
                    ])
     else:
         btn = []
@@ -1518,7 +1518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
-            InlineKeyboardButton ('🪔 sᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton ('[ sᴇᴄᴜʀᴇ 🔐 ]', callback_data='source'),
         ],[
             InlineKeyboardButton('ᴅᴏɴᴀᴛɪᴏɴ 💰', callback_data='donation'),
         ],[
