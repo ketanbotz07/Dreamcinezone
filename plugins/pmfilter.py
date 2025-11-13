@@ -190,7 +190,7 @@ async def next_page(bot, query):
                        InlineKeyboardButton(
                            "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium"),
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "Sᴇɴᴅ Aʟʟ", callback_data=f"Kʏᴀᴀ Jᴀʟᴅɪ Hᴀɪ Rᴜᴋᴏ Zᴀʀᴀ 😂")
 
                    ]
                    )
@@ -210,7 +210,7 @@ async def next_page(bot, query):
         btn.insert(0, [
             InlineKeyboardButton(
                 "ʀᴇᴍᴏᴠᴇ ᴀᴅs", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"Kʏᴀᴀ Jᴀʟᴅɪ Hᴀɪ Rᴜᴋᴏ Zᴀʀᴀ 😂")
         ])
     if ULTRA_FAST_MODE:
         if 0 < offset <= 10:
